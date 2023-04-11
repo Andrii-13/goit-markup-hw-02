@@ -1,0 +1,162 @@
+/* ----------- basic properties ---------------- */
+:root {
+  --primary-background-colour: #ffffff;
+  --secondary-background-colour: #2e2f42;
+
+  --secondery-text-colour: #2e2f42;
+  --hero-text-colour: #ffffff;
+  --footer-text-colour: #f4f4fd;
+
+  --button-colour: #4d5ae5;
+  --accent-colour: #404bbf;
+}
+
+body {
+  font-family: Roboto, sant-serif;
+  color: #434455;
+}
+/* ----------- components --------- */
+.nav,
+.adress-list,
+.advantages-list {
+  list-style: none;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.work-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--secondery-text-colour);
+}
+
+.worker-name,
+.name-working {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--secondery-text-colour);
+}
+.post,
+.category-working {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ----------- header ------------ */
+
+.logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--secondery-text-colour);
+
+  text-decoration: none;
+}
+
+.logo-one-part {
+  color: var(--button-colour);
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+  color: var(--secondery-text-colour);
+
+  text-decoration: none;
+}
+
+.adress-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ---------- hero -------------- */
+.hero {
+  background-color: var(--secondary-background-colour);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+
+  color: var(--hero-text-colour);
+}
+.hero-button:hover,
+.her-button:focus {
+  background-color: var(--accent-colour);
+}
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: var(--hero-text-colour);
+  background-color: var(--button-colour);
+}
+/* ---------- advantages-------- */
+.adv-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--secondery-text-colour);
+}
+.adv-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* --------- footer --------- */
+.footer {
+  background-color: var(--secondary-background-colour);
+}
+.footer-logo {
+  color: var(--footer-text-colour);
+}
+.footer-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--footer-text-colour);
+}
+
+/* =========== PORTFOLIO ============= */
+
+/* ---------- filter -------------- */
+.filter-button {
+  color: var(--button-colour);
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--accent-colour);
+}
